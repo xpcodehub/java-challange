@@ -1,9 +1,11 @@
 package com.xpcodehub.question1;
 
 public class JavaIfElse {
-
-// TODO Questão 1 do README.md
-    public String solucao(int entrada) {
-        return "Previsivel"; //TODO
+    public String solucao(int n) {
+        if(n % 2 != 0 || (n >= 6 && n <= 20)) {
+            return "Imprevisivel";
+        } else{
+            return "Previsivel";
+        }
     }
 }
