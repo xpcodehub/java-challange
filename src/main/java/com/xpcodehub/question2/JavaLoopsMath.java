@@ -1,13 +1,16 @@
 package com.xpcodehub.question2;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class JavaLoopsMath {
 
-// TODO Questão 2 do README.md
-
     public List<Integer> solucao(int entrada) {
-        return List.of(); //TODO
+        List<Integer> list = new ArrayList<>();
+        for (int i = 1; i <= 10; i++) {
+            list.add((entrada * i));
+        }
+        return list;
     }
 
 }
