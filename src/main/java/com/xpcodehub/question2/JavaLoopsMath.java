@@ -7,7 +7,13 @@ public class JavaLoopsMath {
 // TODO Questão 2 do README.md
 
     public List<Integer> solucao(int entrada) {
-        return List.of(); //TODO
+        int numberOfPositions = 10;
+        List<Integer> list = new ArrayList<Integer>();
+        for (int i = 1; i <= numberOfPositions; i++) {
+            list.add(entrada * i);
+        }
+
+        return list;
     }
 
 }
