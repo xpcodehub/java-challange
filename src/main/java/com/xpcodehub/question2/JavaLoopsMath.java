@@ -8,7 +8,7 @@ public class JavaLoopsMath {
 
     public List<Integer> solucao(int entrada) {
         int numberOfPositions = 10;
-        List<Integer> list = new ArrayList<Integer>();
+        List<Integer> list = new List<Integer>();
         for (int i = 1; i <= numberOfPositions; i++) {
             list.add(entrada * i);
         }
