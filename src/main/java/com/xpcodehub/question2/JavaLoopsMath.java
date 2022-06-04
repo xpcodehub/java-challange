@@ -1,5 +1,6 @@
 package com.xpcodehub.question2;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class JavaLoopsMath {
@@ -8,7 +9,8 @@ public class JavaLoopsMath {
 
     public List<Integer> solucao(int entrada) {
         int numberOfPositions = 10;
-        List<Integer> list = new List<Integer>();
+        ArrayList<Integer> list = new ArrayList<>(10);
+
         for (int i = 1; i <= numberOfPositions; i++) {
             list.add(entrada * i);
         }
